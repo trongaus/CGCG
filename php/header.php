@@ -26,7 +26,7 @@
 
   <body <?php body_class(); ?> >
 
-    <div class="tagline-upper text-center text-heading text-white mt-5 d-none d-lg-block" href="<?php bloginfo('url'); ?>">Common Goods Co-operative Grocery</div>
+    <div class="tagline-upper text-center text-heading text-white mt-5 d-none d-lg-block">Common Goods Co-operative Grocery</div>
     <div class="tagline-lower text-center text-expanded text-white text-uppercase mb-5 d-none d-lg-block">744 South Main Street | South Bend, IN 46618 | 123.456.7890</div>
 
     <!-- Navigation -->
@@ -41,12 +41,12 @@
           <?php
             $args = array(
                 'menu'        =>  'header-menu',
-                'menu_class'  =>  'nav navbar-nav',
+                'menu_class'  =>  'nav navbar-nav mx-auto',
                 'container'   =>  'false'
             );
             wp_nav_menu( $args );
           ?>
-
+<!--
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.html">Home
@@ -54,28 +54,24 @@
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="membership.html">Membership</a>
+              <a class="nav-link text-uppercase text-expanded" href="membership.php">Membership</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="meet-the-farmers.html">Meet the Farmers</a>
+              <a class="nav-link text-uppercase text-expanded" href="meet-the-farmers.php">Meet the Farmers</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="educational-resources.html">Education</a>
+              <a class="nav-link text-uppercase text-expanded" href="educational-resources.php">Education</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="FAQ.html">FAQ</a>
+              <a class="nav-link text-uppercase text-expanded" href="FAQ.php">FAQ</a>
             </li>
-            <!--
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="blog.html">Blog</a>
-            </li> -->
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+              <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
             </li>
-          </ul>
+          </ul>-->
         </div>
       </div>
     </nav>

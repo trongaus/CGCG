@@ -1,6 +1,6 @@
 <?php
   /*
-  Template Name: Home
+  Template Name: Contact
   */
 ?>
 
@@ -25,22 +25,14 @@
 
       </div>
 
-      <div class="bg-faded p-4 my-4">
+      <!--<div class="bg-faded p-4 my-4">
 
-        <?php if ( dynamic_sidebar( 'front-top' ) ); ?>
+        <?php if ( dynamic_sidebar( 'education' ) ); ?>
 
-      </div>
-
-      <div class="bg-faded p-4 my-4">
-      
-        <?php if ( dynamic_sidebar( 'front-bottom' ) ); ?>
-
-      </div>
+      </div>-->
 
     </div>
 
     <!-- /.container -->
 
 <?php get_footer(); ?>
-  
-

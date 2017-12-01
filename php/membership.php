@@ -1,6 +1,6 @@
 <?php
   /*
-  Template Name: Home
+  Template Name: Membership
   */
 ?>
 
@@ -25,17 +25,11 @@
 
       </div>
 
-      <div class="bg-faded p-4 my-4">
+      <!--<div class="bg-faded p-4 my-4">
 
-        <?php if ( dynamic_sidebar( 'front-top' ) ); ?>
+        <?php if ( dynamic_sidebar( 'membership' ) ); ?>
 
-      </div>
-
-      <div class="bg-faded p-4 my-4">
-      
-        <?php if ( dynamic_sidebar( 'front-bottom' ) ); ?>
-
-      </div>
+      </div>-->
 
     </div>
 
