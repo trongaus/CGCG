@@ -53,11 +53,11 @@ function create_widget($name, $id, $description) {
     ));
 
 }
-create_widget( 'Front Page Top', 'front-top', 'Displays above on the homepage' );
-create_widget( 'Front Page Bottom', 'front-bottom', 'Displays below on the homepage' );
-create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar');
-create_widget( 'Membership', 'membership', 'Displays on the membership page');
-create_widget( 'Education', 'education', 'Displays on the education page');
 
+//create_widget( 'Front Page Top', 'front-top', 'Displays above on the homepage' );
+//create_widget( 'Front Page Bottom', 'front-bottom', 'Displays below on the homepage' );
+//create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar');
+//create_widget( 'Membership', 'membership', 'Displays on the membership page');
+//create_widget( 'Education', 'education', 'Displays on the education page');
 
 ?>

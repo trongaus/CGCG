@@ -26,8 +26,8 @@
 
   <body <?php body_class(); ?> >
 
-    <div class="tagline-upper text-center text-heading text-white mt-5 d-none d-lg-block">Common Goods Co-operative Grocery</div>
-    <div class="tagline-lower text-center text-expanded text-white text-uppercase mb-5 d-none d-lg-block">744 South Main Street | South Bend, IN 46618 | 123.456.7890</div>
+    <div class="tagline-upper text-center text-heading text-white mt-5 d-none d-lg-block" style="font-size:4rem;">Common Goods Co-operative Grocery</div>
+    <div class="tagline-lower text-center text-expanded text-white text-uppercase mb-5 d-none d-lg-block" style="font-size:1.25rem;">744 South Main Street | South Bend, IN 46618</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">

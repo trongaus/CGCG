@@ -4,7 +4,7 @@
         <a href="mailto:CommonGoodsCoopGrocery@gmail.com"><i class="fa fa-envelope text-lg fa-cog"></i></a>
       </div>
       <div class="container">
-        <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?> </p>
+         <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?> </p>
         <!-- <p class="m-0">Copyright &copy; Common Goods Co-operative Grocery 2017</p>-->
       </div>
     </footer>
